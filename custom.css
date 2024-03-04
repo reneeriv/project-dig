@@ -1,0 +1,181 @@
+@charset "UTF-8";
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+h1, h2, h3, h4, strong, figcaption {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+/*page sections*/
+header {
+  background-color: #F2F2F2;
+}
+#banner {
+  background-color: #B0BF5C;
+}
+#pots {
+  background-color: #CA8F89;
+}
+#instagram {
+  background-color: #B0BF5C;
+}
+#workshop {
+  background-color: #CA8F89;
+}
+footer {
+  background-color: #F2F2F2;
+}
+/*header*/
+header .container {
+  padding: 40px 0;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  header #logo {
+    display: block;
+    margin: 0 auto;
+  }
+  header ul#social {
+    text-align: center;
+  }
+  header #address {
+    text-align: center;
+    line-height: 2;
+  }
+}
+@media (min-width: 768px) {
+  ul#social {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+  }
+  #address {
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+  }
+}
+/*banner*/
+#banner h1 {
+  color: #732720
+}
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+figcaption span {
+  color: white;
+  font-size: 24px;
+  line-height: 45px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+figcaption span.spacer {
+  padding: 0 2px;
+  background: none;
+}
+#banner .container {
+  padding-bottom: 40px;
+}
+/*pots*/
+#pots h2 {
+  color: #264A73
+}
+#pots {
+  position: relative;
+  padding-bottom: 80px;
+  z-index: -1;
+}
+#tagline {
+  position: absolute;
+  bottom: -25px;
+  right: 0px;
+  font-size: 100px;
+  line-height: 1;
+  text-align: right;
+  color: #F7F6B6;
+}
+/*instagram*/
+#instagram h2 {
+  color: #732720
+}
+#instagram img {
+  border: 10px double #FFF;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #instagram1 {
+    position: relative;
+  }
+  #instagram2 {
+    position: relative;
+  }
+  #instagram3 {
+    position: relative;
+    left: 40px;
+  }
+  #instagram4 {
+    position: relative;
+    top: 80px;
+  }
+  #instagram5 {
+    position: relative;
+  }
+  #instagram6 {
+    position: relative;
+  }
+  #instagram7 {
+    position: relative;
+  }
+}
+@media (min-width: 992px) {
+  #instagram1 {
+    position: relative;
+  }
+  #instagram2 {
+    position: relative;
+  }
+  #instagram3 {
+    position: relative;
+  }
+  #instagram4 {
+    position: relative;
+  }
+  #instagram5 {
+    position: relative;
+  }
+  #instagram6 {
+    position: relative;
+  }
+  #instagram7 {
+    position: relative;
+  }
+}
+/*workshop*/
+#workshop .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/*footer*/
+#asterisk {
+  position: absolute;
+  top: -95px;
+  left: 0px;
+  font-size: 200px;
+  line-height: 1;
+  color: #749E6C;
+}
+footer .container {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  position: relative;
+  color: #749E6C;
+}
